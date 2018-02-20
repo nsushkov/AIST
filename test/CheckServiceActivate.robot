@@ -1,11 +1,13 @@
 *** Settings ***
-Library           random
+#Library           random
 Library           JsonValidator
 Library           Collections
 Library           ./libraries/APIClients.py
 Library           ./libraries/DBClients.py
 
-Resource          ./variables/common.py
+Resource          variables/common.robot
+#Resource          ./libraries/common_variables.py
+#Resource          common
 
 Documentation    Suite description
 
@@ -13,7 +15,11 @@ Documentation    Suite description
 
 *** Test Cases ***
 foo
-    log    ${DB_NAME}
+    ${cli}    DBClients.Get Suitable Client
+    #${dd}=    Collections.Convert To Dictionary    ${COMMON}
+    log    ${COMMON}
+
+
 Get Cli
     ${client_id}=    DBClients.Get Suitable Client
 

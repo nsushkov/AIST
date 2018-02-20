@@ -5,12 +5,12 @@ import sqlite3
 import common_variables as com_vars
 
 
-
 class DBClients:
 
     """Класс для работы с базой данных тестируемого приложения """
-    def __init__(self):
-        pass
+    def __init__(self, db_path):
+        self.db_path = db_path
+        # elf.
 
     def get_client_balance(self, client_id):
         """
@@ -27,7 +27,7 @@ class DBClients:
 
         """
         try:
-            with sqlite3.connect(com_vars.DB_NAME) as connection:
+            with sqlite3.connect(self.db_path) as connection:
                 cursor = connection.cursor()
                 cursor.execute("SELECT BALANCE FROM BALANCES AS bl WHERE bl.CLIENTS_CLIENT_ID=%s;" %(client_id))
                 balance = cursor.fetchall()
@@ -55,7 +55,7 @@ class DBClients:
 
         """
         try:
-            with sqlite3.connect(com_vars.DB_NAME) as connection:
+            with sqlite3.connect(self.db_path) as connection:
                 cursor = connection.cursor()
                 cursor.execute("select cl.CLIENT_ID from CLIENTS AS cl INNER JOIN BALANCES AS bl ON cl.CLIENT_ID = bl.CLIENTS_CLIENT_ID WHERE bl.BALANCE > 0 LIMIT 30;")
                 client_id_list = cursor.fetchall()
@@ -83,7 +83,7 @@ class DBClients:
         """
         client_name = ''.join(random.choice(string.ascii_letters) for _ in range(com_vars.NAME_LEN))
         try:
-            with sqlite3.connect(com_vars.DB_NAME) as connection:
+            with sqlite3.connect(self.db_path) as connection:
                 cursor = connection.cursor()
                 cursor.execute("INSERT INTO CLIENTS (CLIENT_NAME) VALUES ('%s')" %(client_name))
                 cursor.execute("INSERT INTO BALANCES VALUES (%s, %s)" %(cursor.lastrowid, com_vars.DEFAULT_BALANCE))
@@ -93,7 +93,8 @@ class DBClients:
             return None
 
 
-cl = DBClients()
+db = "./app/web/clients.db"
+cl = DBClients(db)
 print cl.get_suitable_client()
 
 

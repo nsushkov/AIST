@@ -1,13 +1,11 @@
 # -*- coding: utf-8 -*-
 import requests
-import common_variables as com_vars
 from JsonValidator import *
-
 
 class APIClients:
     """Класс для работы с Api тестируемого приложения """
-    def __init__(self):
-        pass
+    def __init__(self, base_api_url):
+        self.url = base_api_url
 
     def get_client_services(self, client_id):
         """
@@ -27,7 +25,7 @@ class APIClients:
         headers = {'content-type': 'application/json'}
         body = {"client_id": client_id}
         body = json.dumps(body)
-        r = requests.post(com_vars.BASE_API_URL+'client/services', headers=headers, data=body)
+        r = requests.post(self.url + 'client/services', headers=headers, data=body)
         services = r.content
         return services
 
@@ -45,7 +43,7 @@ class APIClients:
 
         """
         headers = {'content-type': 'application/json'}
-        r = requests.get(com_vars.BASE_API_URL + 'services', headers=headers)
+        r = requests.get(self.url + 'services', headers=headers)
         services = r.content
         return services
 
@@ -68,7 +66,7 @@ class APIClients:
         headers = {'content-type': 'application/json'}
         body = {"client_id": client_id, "service_id": service_id}
         body = json.dumps(body)
-        r = requests.post(com_vars.BASE_API_URL + 'client/add_service', headers=headers, data=body)
+        r = requests.post(self.url + 'client/add_service', headers=headers, data=body)
         return r
 
     def get_available_services(self, client_id):
@@ -98,15 +96,12 @@ class APIClients:
                 all_id_list.remove(id)
 
         id_list = all_id_list
-
         for id in id_list:
             elem = validator.get_elements(all_serv, ("$.items[?(@.id == %s)]" %(id)))
             if not elem:
                 continue
             avail_serv_list.append(elem[0])
-
         resp = {"count": len(avail_serv_list), "items": avail_serv_list}
-
         return json.dumps(resp)
 
     def check_service_activated(self, client_id, service_id):
