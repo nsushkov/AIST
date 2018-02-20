@@ -129,3 +129,6 @@ class APIClients:
             return True
         else:
             return False
+ad = 'http://localhost:5000/'
+cl = APIClients(ad)
+print cl.get_client_services(3)
