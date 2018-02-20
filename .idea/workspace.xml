@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7b2ba881-9168-4041-99b6-09877815b17c" name="Default" comment="" />
+    <list default="true" id="7b2ba881-9168-4041-99b6-09877815b17c" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/clients.db" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/libraries/clients.db" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/variables/common_variables.py" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/CheckServiceActivate.robot" afterPath="$PROJECT_DIR$/test/CheckServiceActivate.robot" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/clients.db" afterPath="$PROJECT_DIR$/test/clients.db" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/libraries/APIClients.py" afterPath="$PROJECT_DIR$/test/libraries/APIClients.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/libraries/DBClients.py" afterPath="$PROJECT_DIR$/test/libraries/DBClients.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/libraries/common_variables.py" afterPath="$PROJECT_DIR$/test/libraries/common_variables.py" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,61 +25,16 @@
       <file leaf-file-name="APIClients.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/libraries/APIClients.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="560">
-              <caret line="28" column="19" lean-forward="false" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
+            <state relative-caret-position="160">
+              <caret line="8" column="21" lean-forward="true" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
               <folding>
                 <element signature="e#24#39#0" expanded="true" />
+                <element signature="e#274#631#1" expanded="false" />
+                <element signature="e#944#1200#1" expanded="false" />
+                <element signature="e#1446#1847#1" expanded="false" />
+                <element signature="e#2176#2539#1" expanded="false" />
+                <element signature="e#3441#3826#1" expanded="false" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DBClients.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/libraries/DBClients.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="444">
-              <caret line="67" column="7" lean-forward="true" selection-start-line="67" selection-start-column="7" selection-end-line="67" selection-end-column="7" />
-              <folding>
-                <element signature="e#24#37#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="common_variables.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/libraries/common_variables.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BALANCES" pinned="false" current-in-tab="false">
-        <entry file="db://eeb0280e-63e0-43d7-83a6-6cad3540a0d8/object#[schema/table][main/BALANCES]">
-          <provider selected="true" editor-type-id="1.DATA">
-            <state row-count="6" readonly="false">
-              <columns>
-                <column name="CLIENTS_CLIENT_ID" position="0" visible="true" />
-                <column name="BALANCE" position="1" visible="true" />
-              </columns>
-              <sorting />
-              <content-types />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CLIENTS" pinned="false" current-in-tab="false">
-        <entry file="db://eeb0280e-63e0-43d7-83a6-6cad3540a0d8/object#[schema/table][main/CLIENTS]">
-          <provider selected="true" editor-type-id="1.DATA">
-            <state row-count="6" readonly="false">
-              <columns>
-                <column name="CLIENT_ID" position="0" visible="true" />
-                <column name="CLIENT_NAME" position="1" visible="true" />
-              </columns>
-              <sorting />
-              <content-types />
             </state>
           </provider>
         </entry>
@@ -76,26 +42,34 @@
       <file leaf-file-name="CheckServiceActivate.robot" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/CheckServiceActivate.robot">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="29" column="19" lean-forward="false" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
+            <state relative-caret-position="160">
+              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DBClients.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/libraries/DBClients.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
               <folding>
-                <element signature="e#0#296#0" expanded="true" />
+                <element signature="e#24#37#0" expanded="true" />
+                <element signature="e#282#591#1" expanded="false" />
+                <element signature="e#1184#1579#1" expanded="false" />
+                <element signature="e#2263#2562#1" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SERVICES" pinned="false" current-in-tab="false">
-        <entry file="db://eeb0280e-63e0-43d7-83a6-6cad3540a0d8/object#[schema/table][main/SERVICES]">
-          <provider selected="true" editor-type-id="1.DATA">
-            <state row-count="5" readonly="false">
-              <columns>
-                <column name="SERVICE_ID" position="0" visible="true" />
-                <column name="SERVICE_NAME" position="1" visible="true" />
-                <column name="COST" position="2" visible="true" />
-              </columns>
-              <sorting />
-              <content-types />
+      <file leaf-file-name="common.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/variables/common.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="40">
+              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="7" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -113,8 +87,15 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>db_path</find>
+      <find>get_ele</find>
       <find>json</find>
+      <find>serv_id</find>
+      <find>cost</find>
+      <find>rand</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -124,8 +105,10 @@
         <option value="$PROJECT_DIR$/DBClients.py" />
         <option value="$PROJECT_DIR$/clients.py" />
         <option value="$PROJECT_DIR$/main.py" />
+        <option value="C:/TORS/library/core/JsonValidator.py" />
         <option value="$PROJECT_DIR$/test/libraries/APIClients.py" />
         <option value="$PROJECT_DIR$/test/libraries/common_variables.py" />
+        <option value="$PROJECT_DIR$/test/variables/common_variables.py" />
         <option value="$PROJECT_DIR$/test/libraries/DBClients.py" />
         <option value="$PROJECT_DIR$/test/CheckServiceActivate.robot" />
       </list>
@@ -137,6 +120,7 @@
     <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -161,6 +145,11 @@
               <item name="AIST" type="b2602c69:ProjectViewProjectNode" />
               <item name="AIST" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="AIST" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AIST" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -170,7 +159,7 @@
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="last_opened_file_path" value="C:/TORS" />
+    <property name="last_opened_file_path" value="C:/shlack/TestTask" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -185,6 +174,23 @@
     </option>
   </component>
   <component name="RunManager" selected="Python.DBClients">
+    <configuration name="APIClients" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test/libraries" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="AIST" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/libraries/APIClients.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
     <configuration name="DBClients" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -219,6 +225,23 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
+    <configuration name="common_variables" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test/libraries" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="AIST" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/libraries/common_variables.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -236,16 +259,20 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <list size="3">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.clients" />
       <item index="1" class="java.lang.String" itemvalue="Python.main" />
       <item index="2" class="java.lang.String" itemvalue="Python.DBClients" />
+      <item index="3" class="java.lang.String" itemvalue="Python.APIClients" />
+      <item index="4" class="java.lang.String" itemvalue="Python.common_variables" />
     </list>
     <recent_temporary>
-      <list size="3">
+      <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Python.DBClients" />
-        <item index="1" class="java.lang.String" itemvalue="Python.clients" />
-        <item index="2" class="java.lang.String" itemvalue="Python.main" />
+        <item index="1" class="java.lang.String" itemvalue="Python.common_variables" />
+        <item index="2" class="java.lang.String" itemvalue="Python.APIClients" />
+        <item index="3" class="java.lang.String" itemvalue="Python.clients" />
+        <item index="4" class="java.lang.String" itemvalue="Python.main" />
       </list>
     </recent_temporary>
   </component>
@@ -264,20 +291,19 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="40" width="974" height="1047" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24205914" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16266666" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.240991" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2849099" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995495" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21796276" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26725084" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="JSON Utils" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24972618" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39977476" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -286,7 +312,7 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32995495" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32882884" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32882884" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -298,116 +324,84 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="2" />
+      <option name="time" value="3" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/clients.db">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clients.py" />
-    <entry file="file://$PROJECT_DIR$/'clients'.db" />
-    <entry file="file://$PROJECT_DIR$/common_variables.py" />
-    <entry file="db://[Connection] TABLE - main.CLIENTS" />
-    <entry file="db://[Connection] TABLE - main.SERVICES" />
     <entry file="db://[Connection] TABLE - main.CLIENT_SERVICE" />
-    <entry file="file://$PROJECT_DIR$/main.py" />
-    <entry file="file://$PROJECT_DIR$/DBClients.py" />
-    <entry file="file://$PROJECT_DIR$/clients.py" />
-    <entry file="file://$PROJECT_DIR$/clients.db">
+    <entry file="db://[Connection] TABLE - main.CLIENT_SERVICE" />
+    <entry file="db://[Connection] TABLE - main.SERVICES" />
+    <entry file="db://[Connection] TABLE - main.SERVICES" />
+    <entry file="db://[Connection] TABLE - main.SERVICES" />
+    <entry file="db://[Connection] TABLE - main.BALANCES" />
+    <entry file="db://[Connection] TABLE - main.BALANCES" />
+    <entry file="db://[Connection] TABLE - main.CLIENTS" />
+    <entry file="db://[Connection] TABLE - main.CLIENTS" />
+    <entry file="db://[Connection] TABLE - main.CLIENTS" />
+    <entry file="db://[Connection] TABLE - main.CLIENT_SERVICE" />
+    <entry file="db://[Connection] TABLE - main.CLIENT_SERVICE" />
+    <entry file="db://[Connection] TABLE - main.BALANCES" />
+    <entry file="db://[Connection] TABLE - main.BALANCES" />
+    <entry file="db://[Connection] TABLE - main.CLIENTS" />
+    <entry file="db://[Connection] TABLE - main.CLIENTS" />
+    <entry file="db://[Connection] TABLE - main.BALANCES" />
+    <entry file="db://[Connection] TABLE - main.BALANCES" />
+    <entry file="db://[Connection] TABLE - main.CLIENTS" />
+    <entry file="db://[Connection] TABLE - main.CLIENTS" />
+    <entry file="db://[Connection] TABLE - main.BALANCES" />
+    <entry file="db://[Connection] TABLE - main.BALANCES" />
+    <entry file="db://[Connection] TABLE - main.CLIENT_SERVICE" />
+    <entry file="db://[Connection] TABLE - main.CLIENT_SERVICE" />
+    <entry file="db://[Connection] TABLE - main.CLIENT_SERVICE" />
+    <entry file="db://[Connection] TABLE - main.CLIENT_SERVICE" />
+    <entry file="db://[Connection] TABLE - main.CLIENT_SERVICE" />
+    <entry file="db://[Connection] TABLE - main.CLIENT_SERVICE" />
+    <entry file="db://[Connection] TABLE - main.CLIENT_SERVICE" />
+    <entry file="db://[Connection] TABLE - main.CLIENTS" />
+    <entry file="db://[Connection] TABLE - main.CLIENTS" />
+    <entry file="db://[Connection] TABLE - main.BALANCES" />
+    <entry file="db://[Connection] TABLE - main.BALANCES" />
+    <entry file="db://[Connection] TABLE - main.BALANCES" />
+    <entry file="db://[Connection] TABLE - main.BALANCES" />
+    <entry file="db://[Connection] TABLE - main.BALANCES" />
+    <entry file="db://[Connection] TABLE - main.BALANCES" />
+    <entry file="file://C:/TORS/library/core/JsonValidator.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="546">
+          <caret line="462" column="8" lean-forward="false" selection-start-line="462" selection-start-column="8" selection-end-line="462" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="1598" column="0" lean-forward="false" selection-start-line="1598" selection-start-column="0" selection-end-line="1598" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="db://[Connection] TABLE - main.SERVICES" />
+    <entry file="file://C:/Python27/Lib/site-packages/robotide/lib/robot/libraries/Collections.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="436">
+          <caret line="117" column="35" lean-forward="false" selection-start-line="115" selection-start-column="8" selection-end-line="117" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/variables/common_variables.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CheckServiceActivate.robot" />
-    <entry file="db://[Connection] TABLE - main.BALANCES" />
     <entry file="db://[Connection] TABLE - main.BALANCES">
       <provider selected="true" editor-type-id="1.DATA">
-        <state row-count="0" readonly="false">
+        <state row-count="3" readonly="false">
           <columns>
             <column name="CLIENTS_CLIENT_ID" position="0" visible="true" />
             <column name="BALANCE" position="1" visible="true" />
-          </columns>
-          <sorting />
-          <content-types />
-        </state>
-      </provider>
-    </entry>
-    <entry file="db://[Connection] TABLE - main.BALANCES">
-      <provider selected="true" editor-type-id="1.DATA">
-        <state row-count="0" readonly="false">
-          <columns>
-            <column name="CLIENTS_CLIENT_ID" position="0" visible="true" />
-            <column name="BALANCE" position="1" visible="true" />
-          </columns>
-          <sorting />
-          <content-types />
-        </state>
-      </provider>
-    </entry>
-    <entry file="db://[Connection] TABLE - main.BALANCES">
-      <provider selected="true" editor-type-id="1.DATA">
-        <state row-count="6" readonly="false">
-          <columns>
-            <column name="CLIENTS_CLIENT_ID" position="0" visible="true" />
-            <column name="BALANCE" position="1" visible="true" />
-          </columns>
-          <sorting />
-          <content-types />
-        </state>
-      </provider>
-    </entry>
-    <entry file="db://[Connection] TABLE - main.BALANCES">
-      <provider selected="true" editor-type-id="1.DATA">
-        <state row-count="6" readonly="false">
-          <columns>
-            <column name="CLIENTS_CLIENT_ID" position="0" visible="true" />
-            <column name="BALANCE" position="1" visible="true" />
-          </columns>
-          <sorting />
-          <content-types />
-        </state>
-      </provider>
-    </entry>
-    <entry file="db://[Connection] TABLE - main.BALANCES">
-      <provider selected="true" editor-type-id="1.DATA">
-        <state row-count="6" readonly="false">
-          <columns>
-            <column name="CLIENTS_CLIENT_ID" position="0" visible="true" />
-            <column name="BALANCE" position="1" visible="true" />
-          </columns>
-          <sorting />
-          <content-types />
-        </state>
-      </provider>
-    </entry>
-    <entry file="db://[Connection] TABLE - main.CLIENT_SERVICE">
-      <provider selected="true" editor-type-id="1.DATA">
-        <state row-count="0" readonly="false">
-          <columns>
-            <column name="CLIENTS_CLIENT_ID" position="0" visible="true" />
-            <column name="SERVICES_SERVICE_ID" position="1" visible="true" />
-          </columns>
-          <sorting />
-          <content-types />
-        </state>
-      </provider>
-    </entry>
-    <entry file="db://[Connection] TABLE - main.CLIENT_SERVICE">
-      <provider selected="true" editor-type-id="1.DATA">
-        <state row-count="0" readonly="false">
-          <columns>
-            <column name="CLIENTS_CLIENT_ID" position="0" visible="true" />
-            <column name="SERVICES_SERVICE_ID" position="1" visible="true" />
           </columns>
           <sorting />
           <content-types />
@@ -426,73 +420,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="db://[Connection] TABLE - main.SERVICES">
-      <provider selected="true" editor-type-id="1.DATA">
-        <state row-count="0" readonly="false">
-          <columns>
-            <column name="SERVICE_ID" position="0" visible="true" />
-            <column name="SERVICE_NAME" position="1" visible="true" />
-            <column name="COST" position="2" visible="true" />
-          </columns>
-          <sorting />
-          <content-types />
-        </state>
-      </provider>
-    </entry>
-    <entry file="db://[Connection] TABLE - main.SERVICES">
-      <provider selected="true" editor-type-id="1.DATA">
-        <state row-count="0" readonly="false">
-          <columns>
-            <column name="SERVICE_ID" position="0" visible="true" />
-            <column name="SERVICE_NAME" position="1" visible="true" />
-            <column name="COST" position="2" visible="true" />
-          </columns>
-          <sorting />
-          <content-types />
-        </state>
-      </provider>
-    </entry>
-    <entry file="db://[Connection] TABLE - main.SERVICES">
+    <entry file="db://[Connection] TABLE - main.CLIENTS">
       <provider selected="true" editor-type-id="1.DATA">
         <state row-count="5" readonly="false">
           <columns>
-            <column name="SERVICE_ID" position="0" visible="true" />
-            <column name="SERVICE_NAME" position="1" visible="true" />
-            <column name="COST" position="2" visible="true" />
-          </columns>
-          <sorting />
-          <content-types />
-        </state>
-      </provider>
-    </entry>
-    <entry file="db://[Connection] TABLE - main.BALANCES">
-      <provider selected="true" editor-type-id="1.DATA">
-        <state row-count="6" readonly="false">
-          <columns>
-            <column name="CLIENTS_CLIENT_ID" position="0" visible="true" />
-            <column name="BALANCE" position="1" visible="true" />
-          </columns>
-          <sorting />
-          <content-types />
-        </state>
-      </provider>
-    </entry>
-    <entry file="db://[Connection] TABLE - main.BALANCES">
-      <provider selected="true" editor-type-id="1.DATA">
-        <state row-count="6" readonly="false">
-          <columns>
-            <column name="CLIENTS_CLIENT_ID" position="0" visible="true" />
-            <column name="BALANCE" position="1" visible="true" />
-          </columns>
-          <sorting />
-          <content-types />
-        </state>
-      </provider>
-    </entry>
-    <entry file="db://[Connection] TABLE - main.CLIENTS">
-      <provider selected="true" editor-type-id="1.DATA">
-        <state row-count="0" readonly="false">
-          <columns>
             <column name="CLIENT_ID" position="0" visible="true" />
             <column name="CLIENT_NAME" position="1" visible="true" />
           </columns>
@@ -501,234 +432,63 @@
         </state>
       </provider>
     </entry>
-    <entry file="db://[Connection] TABLE - main.CLIENTS">
-      <provider selected="true" editor-type-id="1.DATA">
-        <state row-count="0" readonly="false">
-          <columns>
-            <column name="CLIENT_ID" position="0" visible="true" />
-            <column name="CLIENT_NAME" position="1" visible="true" />
-          </columns>
-          <sorting />
-          <content-types />
-        </state>
-      </provider>
-    </entry>
-    <entry file="db://[Connection] TABLE - main.CLIENTS">
-      <provider selected="true" editor-type-id="1.DATA">
-        <state row-count="6" readonly="false">
-          <columns>
-            <column name="CLIENT_ID" position="0" visible="true" />
-            <column name="CLIENT_NAME" position="1" visible="true" />
-          </columns>
-          <sorting />
-          <content-types />
-        </state>
-      </provider>
-    </entry>
-    <entry file="db://[Connection] TABLE - main.CLIENT_SERVICE">
-      <provider selected="true" editor-type-id="1.DATA">
-        <state row-count="1" readonly="false">
-          <columns>
-            <column name="CLIENTS_CLIENT_ID" position="0" visible="true" />
-            <column name="SERVICES_SERVICE_ID" position="1" visible="true" />
-          </columns>
-          <sorting />
-          <content-types />
-        </state>
-      </provider>
-    </entry>
-    <entry file="db://[Connection] TABLE - main.CLIENT_SERVICE">
-      <provider selected="true" editor-type-id="1.DATA">
-        <state row-count="1" readonly="false">
-          <columns>
-            <column name="CLIENTS_CLIENT_ID" position="0" visible="true" />
-            <column name="SERVICES_SERVICE_ID" position="1" visible="true" />
-          </columns>
-          <sorting />
-          <content-types />
-        </state>
-      </provider>
-    </entry>
-    <entry file="db://[Connection] TABLE - main.BALANCES">
-      <provider selected="true" editor-type-id="1.DATA">
-        <state row-count="6" readonly="false">
-          <columns>
-            <column name="CLIENTS_CLIENT_ID" position="0" visible="true" />
-            <column name="BALANCE" position="1" visible="true" />
-          </columns>
-          <sorting />
-          <content-types />
-        </state>
-      </provider>
-    </entry>
-    <entry file="db://[Connection] TABLE - main.BALANCES">
-      <provider selected="true" editor-type-id="1.DATA">
-        <state row-count="6" readonly="false">
-          <columns>
-            <column name="CLIENTS_CLIENT_ID" position="0" visible="true" />
-            <column name="BALANCE" position="1" visible="true" />
-          </columns>
-          <sorting />
-          <content-types />
+    <entry file="file://$PROJECT_DIR$/app/web/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" column="11" lean-forward="false" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/libraries/APIClients.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="28" column="19" lean-forward="false" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
+        <state relative-caret-position="160">
+          <caret line="8" column="21" lean-forward="true" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
           <folding>
             <element signature="e#24#39#0" expanded="true" />
+            <element signature="e#274#631#1" expanded="false" />
+            <element signature="e#944#1200#1" expanded="false" />
+            <element signature="e#1446#1847#1" expanded="false" />
+            <element signature="e#2176#2539#1" expanded="false" />
+            <element signature="e#3441#3826#1" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="db://[Connection] TABLE - main.CLIENTS">
-      <provider selected="true" editor-type-id="1.DATA">
-        <state row-count="6" readonly="false">
-          <columns>
-            <column name="CLIENT_ID" position="0" visible="true" />
-            <column name="CLIENT_NAME" position="1" visible="true" />
-          </columns>
-          <sorting />
-          <content-types />
-        </state>
-      </provider>
-    </entry>
-    <entry file="db://[Connection] TABLE - main.CLIENTS">
-      <provider selected="true" editor-type-id="1.DATA">
-        <state row-count="6" readonly="false">
-          <columns>
-            <column name="CLIENT_ID" position="0" visible="true" />
-            <column name="CLIENT_NAME" position="1" visible="true" />
-          </columns>
-          <sorting />
-          <content-types />
-        </state>
-      </provider>
-    </entry>
-    <entry file="db://[Connection] TABLE - main.BALANCES">
-      <provider selected="true" editor-type-id="1.DATA">
-        <state row-count="6" readonly="false">
-          <columns>
-            <column name="CLIENTS_CLIENT_ID" position="0" visible="true" />
-            <column name="BALANCE" position="1" visible="true" />
-          </columns>
-          <sorting />
-          <content-types />
-        </state>
-      </provider>
-    </entry>
-    <entry file="db://[Connection] TABLE - main.BALANCES">
-      <provider selected="true" editor-type-id="1.DATA">
-        <state row-count="6" readonly="false">
-          <columns>
-            <column name="CLIENTS_CLIENT_ID" position="0" visible="true" />
-            <column name="BALANCE" position="1" visible="true" />
-          </columns>
-          <sorting />
-          <content-types />
-        </state>
-      </provider>
-    </entry>
-    <entry file="db://[Connection] TABLE - main.CLIENTS">
-      <provider selected="true" editor-type-id="1.DATA">
-        <state row-count="6" readonly="false">
-          <columns>
-            <column name="CLIENT_ID" position="0" visible="true" />
-            <column name="CLIENT_NAME" position="1" visible="true" />
-          </columns>
-          <sorting />
-          <content-types />
-        </state>
-      </provider>
-    </entry>
-    <entry file="db://[Connection] TABLE - main.CLIENTS">
-      <provider selected="true" editor-type-id="1.DATA">
-        <state row-count="6" readonly="false">
-          <columns>
-            <column name="CLIENT_ID" position="0" visible="true" />
-            <column name="CLIENT_NAME" position="1" visible="true" />
-          </columns>
-          <sorting />
-          <content-types />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/libraries/common_variables.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="12" />
+        <state relative-caret-position="60">
+          <caret line="3" column="12" lean-forward="true" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/libraries/DBClients.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="444">
-          <caret line="67" column="7" lean-forward="true" selection-start-line="67" selection-start-column="7" selection-end-line="67" selection-end-column="7" />
+        <state relative-caret-position="120">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding>
             <element signature="e#24#37#0" expanded="true" />
+            <element signature="e#282#591#1" expanded="false" />
+            <element signature="e#1184#1579#1" expanded="false" />
+            <element signature="e#2263#2562#1" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="db://[Connection] TABLE - main.BALANCES">
-      <provider selected="true" editor-type-id="1.DATA">
-        <state row-count="6" readonly="false">
-          <columns>
-            <column name="CLIENTS_CLIENT_ID" position="0" visible="true" />
-            <column name="BALANCE" position="1" visible="true" />
-          </columns>
-          <sorting />
-          <content-types />
+    <entry file="file://$PROJECT_DIR$/test/variables/common.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="7" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="db://[Connection] TABLE - main.BALANCES">
-      <provider selected="true" editor-type-id="1.DATA">
-        <state row-count="6" readonly="false">
-          <columns>
-            <column name="CLIENTS_CLIENT_ID" position="0" visible="true" />
-            <column name="BALANCE" position="1" visible="true" />
-          </columns>
-          <sorting />
-          <content-types />
-        </state>
-      </provider>
-    </entry>
-    <entry file="db://[Connection] TABLE - main.CLIENT_SERVICE">
-      <provider selected="true" editor-type-id="1.DATA">
-        <state row-count="1" readonly="false">
-          <columns>
-            <column name="CLIENTS_CLIENT_ID" position="0" visible="true" />
-            <column name="SERVICES_SERVICE_ID" position="1" visible="true" />
-          </columns>
-          <sorting />
-          <content-types />
-        </state>
-      </provider>
-    </entry>
-    <entry file="db://[Connection] TABLE - main.CLIENT_SERVICE">
-      <provider selected="true" editor-type-id="1.DATA">
-        <state row-count="1" readonly="false">
-          <columns>
-            <column name="CLIENTS_CLIENT_ID" position="0" visible="true" />
-            <column name="SERVICES_SERVICE_ID" position="1" visible="true" />
-          </columns>
-          <sorting />
-          <content-types />
-        </state>
-      </provider>
-    </entry>
-    <entry file="db://[Connection] TABLE - main.CLIENT_SERVICE" />
     <entry file="file://$PROJECT_DIR$/test/CheckServiceActivate.robot">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="29" column="19" lean-forward="false" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#296#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="160">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

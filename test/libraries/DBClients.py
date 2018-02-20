@@ -4,9 +4,28 @@ import string
 import sqlite3
 import common_variables as com_vars
 
+
+
 class DBClients:
 
+    """Класс для работы с базой данных тестируемого приложения """
+    def __init__(self):
+        pass
+
     def get_client_balance(self, client_id):
+        """
+        Получение текущего баланса клиента
+        *Args:*\n
+        client_id - id клиента
+
+        *Returns:*\n
+        balance
+
+        *Example:*\n
+        | *Test Cases* | *Action* | *Action* | *Argument* |
+        | Get Client Balance  | ${balance}= | DBClients.Get Client Balance | 1 |
+
+        """
         try:
             with sqlite3.connect(com_vars.DB_NAME) as connection:
                 cursor = connection.cursor()
@@ -21,17 +40,20 @@ class DBClients:
             print("Error: ", err)
             return None
 
-
-    def get_clients(self):
-        with sqlite3.connect(com_vars.DB_NAME) as connection:
-            cursor = connection.cursor()
-            cursor.execute("select cl.CLIENT_ID from CLIENTS AS cl INNER JOIN BALANCES AS bl ON cl.CLIENT_ID = bl.CLIENTS_CLIENT_ID WHERE bl.BALANCE > 0 LIMIT 30;")
-            clients = cursor.fetchall()
-            print("CLIENTS")
-            print clients
-        return clients
-
     def get_suitable_client(self):
+        """
+        Получение клиента для теста, удовлетворяющего требованиям: с положительным балансом
+        В случае, если такой клиент не найден - возвращается None
+        *Args:*\n
+
+        *Returns:*\n
+        client_id - id клиента
+
+        *Example:*\n
+        | *Test Cases* | *Action* | *Action* |
+        | Get Suitable Client  | ${client_id}= | DBClients.Get Suitable Client |
+
+        """
         try:
             with sqlite3.connect(com_vars.DB_NAME) as connection:
                 cursor = connection.cursor()
@@ -46,21 +68,20 @@ class DBClients:
             print("Error: ", err)
             return None
 
-
-    def test_select(self):
-        with sqlite3.connect(com_vars.DB_NAME) as connection:
-            cursor = connection.cursor()
-            cursor.execute("select * from CLIENTS;")
-
-            results = cursor.fetchall()
-            print("CLIENTS")
-            print(type(results))
-            print(results)
-        return results
-
     def add_rand_client(self):
+        """
+        Создание клиента со случайным именем и положительным балансом
+        *Args:*\n
+
+        *Returns:*\n
+        client_id - id клиента
+
+        *Example:*\n
+        | *Test Cases* | *Action* | *Action* |
+        | Add Rand Client  | ${client_id}= | DBClients.Add Rand Client |
+
+        """
         client_name = ''.join(random.choice(string.ascii_letters) for _ in range(com_vars.NAME_LEN))
-        print "Создается новый клиент"
         try:
             with sqlite3.connect(com_vars.DB_NAME) as connection:
                 cursor = connection.cursor()
@@ -71,6 +92,9 @@ class DBClients:
             print("Error: ", err)
             return None
 
+
+cl = DBClients()
+print cl.get_suitable_client()
 
 
 
