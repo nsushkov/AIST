@@ -2,8 +2,10 @@
 import requests
 from JsonValidator import *
 
+
 class APIClients:
     """Класс для работы с Api тестируемого приложения """
+
     def __init__(self, base_api_url):
         self.url = base_api_url
 
